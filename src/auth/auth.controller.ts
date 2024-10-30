@@ -46,7 +46,7 @@ export class AuthController {
     // get user data from token
     // console.log({user: request.user});
 
-    console.log({user});
+    // console.log({user});
 
     return {
       ok: true,

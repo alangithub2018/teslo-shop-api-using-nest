@@ -84,7 +84,7 @@ export class AuthService {
       throw new BadRequestException(error.detail);
     }
 
-    console.log(error);
+    // console.log(error);
 
     throw new InternalServerErrorException('Please check server logs');
   }
